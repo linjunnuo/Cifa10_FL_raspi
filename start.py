@@ -7,7 +7,7 @@ for i in range(usr):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(hostname=ip, port=22, username='pi', password='ljnnnnnn')
-    stdin, stdout, stderr = ssh.exec_command('python /home/pi/Desktop/client_rasp_test.py')
+    stdin, stdout, stderr = ssh.exec_command('python /home/pi/Desktop/client_rasp.py.py')
 
 # from fabric import Connection
 # usr = 8
@@ -23,5 +23,5 @@ for i in range(usr):
 #                    ))
 #
 #     # 利用run方法直接执行传入的命令
-#     c.run('python /home/pi/Desktop/client_rasp_test.py', hide=True)
+#     c.run('python /home/pi/Desktop/client_rasp.py', hide=True)
 
