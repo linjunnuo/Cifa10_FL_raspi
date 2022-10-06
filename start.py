@@ -1,5 +1,5 @@
 import paramiko
-usr = 8
+usr = 3
 
 for i in range(usr):
     ip = '192.168.1.1'+str(i+11)
