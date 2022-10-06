@@ -43,7 +43,7 @@ Run  `~server.ipynb` file, set `users`,`round`
 
 ### 2. Run clients
 
-You __need__ to use `~startr.py` file, set `usr`,`ip`.`username`,`password`, what you need to do is running this file in the ==python console==
+You __need__ to use `~startr.py` file, set `usr`,`ip`.`username`,`password`, what you need to do is running this file in the **python console**
 
 
 
