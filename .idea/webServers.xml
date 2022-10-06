@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3251b1bc-2c79-4baa-b45e-01cb72fa29dd" name="1">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.111" port="22" sshConfigId="699526d0-48a7-4bea-bf20-fc780bd55809" sshConfig="pi@192.168.1.111:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="670f4484-ebd5-466e-9433-d379793db882" name="2">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.112" port="22" sshConfigId="f0a2ba3a-6c24-4fbb-a933-1ba1ec0bb1b4" sshConfig="pi@192.168.1.112:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="01267420-8b6d-46eb-87cd-150744f0c7f7" name="3">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.113" port="22" sshConfigId="b55f9c3f-8ee4-42fa-a552-75795ddb4f88" sshConfig="pi@192.168.1.113:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bc64aa63-97ac-499b-9158-78fac9b25211" name="4">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.114" port="22" sshConfigId="0d5dbf6c-35db-4de6-8acc-6b8bd1a150d5" sshConfig="pi@192.168.1.114:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="184cf659-f536-4e60-b15f-1eeb29b3ac99" name="5">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.115" port="22" sshConfigId="2ea9edec-cbd2-4f54-95c3-e1eb2d480ab7" sshConfig="pi@192.168.1.115:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="17e2155b-7a39-4ee2-8268-cdf823f7c95e" name="6">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.116" port="22" sshConfigId="ea775c62-c4d2-4d0f-886f-55080f420ab8" sshConfig="pi@192.168.1.116:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ad5aad46-a541-4573-bb7e-3004cc32ecce" name="7">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.117" port="22" sshConfigId="33966c86-418c-4b61-95cc-595e2c1bb04f" sshConfig="pi@192.168.1.117:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="11543023-b416-4515-b034-354d098f2a12" name="8">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.118" port="22" sshConfigId="d5a3320b-8394-4f7d-9784-69288fc6bceb" sshConfig="pi@192.168.1.118:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>pi</name>
+        <servers>
+          <name value="1" />
+          <name value="2" />
+          <name value="3" />
+          <name value="4" />
+          <name value="5" />
+          <name value="6" />
+          <name value="7" />
+          <name value="8" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

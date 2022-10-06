@@ -313,9 +313,6 @@ send_msg(s, len(trainset_sub))
 # update weights from server
 # train
 for r in range(rounds):  # loop over the dataset multiple times
-
- 
-    
     weights = recv_msg(s)
     mobile_net.load_state_dict(weights)
     mobile_net.eval()
