@@ -45,8 +45,20 @@ Run  `~server.ipynb` file, set `users`,`round`
 
 You __need__ to use `~startr.py` file, set `usr`,`ip`.`username`,`password`, what you need to do is running this file in the **python console**
 
+![image-20221006164836497](README.assets/image-20221006164836497.png)
 
 
 
 
-![bcf3d1a229ab587af7df41180087002](README.assets/bcf3d1a229ab587af7df41180087002.jpg)![image-20221006164836497](README.assets/image-20221006164836497.png)
+
+
+
+
+
+
+
+
+
+
+
+![bcf3d1a229ab587af7df41180087002](README.assets/bcf3d1a229ab587af7df41180087002.jpg)
