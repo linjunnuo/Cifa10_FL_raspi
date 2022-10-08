@@ -7,3 +7,4 @@ tqdm
 netifaces
 socket
 paramiko==2.6
+cryptography==3.4.7

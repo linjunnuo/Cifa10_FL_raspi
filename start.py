@@ -1,4 +1,5 @@
 import paramiko
+import time
 usr = 8
 
 for i in range(usr):
@@ -6,4 +7,4 @@ for i in range(usr):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(hostname=ip, port=22, username='pi', password='ljnnnnnn')
-    stdin, stdout, stderr = ssh.exec_command('python /home/pi/Desktop/client_rasp.py.py')
+    stdin, stdout, stderr = ssh.exec_command('python /home/pi/Desktop/client_rasp.py')

@@ -23,11 +23,10 @@ from torch.utils.data import Subset
 
 users = 8 # number of clients
 batch_size = 32 # batch size
-rounds = 40 # client-server communication rounds
+rounds = 2 # client-server communication rounds
 local_epochs = 1 # local epoch
 host = "192.168.1.104" # Set host address
 port = 2000 #Set port number
-max_recv = 100000
 
 def getFreeDescription():
     free = os.popen("free -h")
