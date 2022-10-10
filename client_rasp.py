@@ -76,10 +76,10 @@ num_traindata = int(50000/users)
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))]) # Normalize
 indices = list(range(50000))
 part_tr = indices[num_traindata * client_order : num_traindata * (client_order + 1)]
-trainset = torchvision.datasets.CIFAR10 (root='/home/pi/Desktop/dataset', train=True, download=False, transform=transform)
+trainset = torchvision.datasets.CIFAR10 (root='/home/pi/Desktop/data', train=True, download=False, transform=transform)
 trainset_sub = Subset(trainset, part_tr) # Let each client train with different data
 train_loader = torch.utils.data.DataLoader(trainset_sub, batch_size=batch_size, shuffle=True, num_workers=2)
-testset = torchvision.datasets.CIFAR10 (root='/home/pi/Desktop/dataset', train=False, download=False, transform=transform)
+testset = torchvision.datasets.CIFAR10 (root='/home/pi/Desktop/data', train=False, download=False, transform=transform)
 test_loader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=2)
 classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
