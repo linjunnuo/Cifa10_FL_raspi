@@ -21,11 +21,11 @@ from gpiozero import CPUTemperature
 from torch.utils.data import Subset
 
 
-users = 8 # number of clients
+users = 11 # number of clients
 batch_size = 32 # batch size
 rounds = 2 # client-server communication rounds
 local_epochs = 1 # local epoch
-host = "192.168.1.104" # Set host address
+host = "192.168.1.100" # Set host address
 port = 2000 #Set port number
 
 def getFreeDescription():

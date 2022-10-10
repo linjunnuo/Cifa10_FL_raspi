@@ -5,4 +5,3 @@ numpy==1.23.3
 h5py
 tqdm
 netifaces
-socket

@@ -58,6 +58,27 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="08dba656-e7df-4238-a22e-698902365aca" name="9">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.119" port="22" sshConfigId="d534ae31-647f-4558-96d8-22e25de9768e" sshConfig="pi@192.168.1.119:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="08812ab9-5c3b-4093-a78a-44ebd013788c" name="10">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.120" port="22" sshConfigId="3ac5656d-b241-4df5-a247-66a3d382d443" sshConfig="pi@192.168.1.120:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec864d63-d0cb-4b87-999d-fce19b1807d4" name="11">
+        <fileTransfer rootFolder="/home/pi/Desktop" accessType="SFTP" host="192.168.1.121" port="22" sshConfigId="3401570a-03cc-43d9-b3e2-68be085cb397" sshConfig="pi@192.168.1.121:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
     <groups>
       <group>
@@ -71,6 +92,9 @@
           <name value="6" />
           <name value="7" />
           <name value="8" />
+          <name value="9" />
+          <name value="10" />
+          <name value="11" />
         </servers>
       </group>
     </groups>
