@@ -1,6 +1,11 @@
 #!/usr/bin/env python3.9
-
 # coding: utf-8
+users = 24 # number of clients
+batch_size = 32 # batch size
+rounds = 2 # client-server communication rounds
+local_epochs = 1 # local epoch
+host = "192.168.1.104" # Set host address
+port = 2000 #Set port number
 
 import os
 import h5py
@@ -19,14 +24,6 @@ import time
 from tqdm import tqdm
 from gpiozero import CPUTemperature
 from torch.utils.data import Subset
-
-
-users = 11 # number of clients
-batch_size = 32 # batch size
-rounds = 2 # client-server communication rounds
-local_epochs = 1 # local epoch
-host = "192.168.1.100" # Set host address
-port = 2000 #Set port number
 
 def getFreeDescription():
     free = os.popen("free -h")
